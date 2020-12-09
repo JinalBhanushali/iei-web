@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/iei-web/static/css/main.45b67897.chunk.css",
+    "main.js": "/iei-web/static/js/main.6a0a323a.chunk.js",
+    "main.js.map": "/iei-web/static/js/main.6a0a323a.chunk.js.map",
+    "runtime-main.js": "/iei-web/static/js/runtime-main.8409f512.js",
+    "runtime-main.js.map": "/iei-web/static/js/runtime-main.8409f512.js.map",
+    "static/js/2.92be2ad5.chunk.js": "/iei-web/static/js/2.92be2ad5.chunk.js",
+    "static/js/2.92be2ad5.chunk.js.map": "/iei-web/static/js/2.92be2ad5.chunk.js.map",
+    "index.html": "/iei-web/index.html",
+    "precache-manifest.2d75290e609d346a29ed5b219d7e6b69.js": "/iei-web/precache-manifest.2d75290e609d346a29ed5b219d7e6b69.js",
+    "service-worker.js": "/iei-web/service-worker.js",
+    "static/css/main.45b67897.chunk.css.map": "/iei-web/static/css/main.45b67897.chunk.css.map",
+    "static/js/2.92be2ad5.chunk.js.LICENSE.txt": "/iei-web/static/js/2.92be2ad5.chunk.js.LICENSE.txt",
+    "static/media/event2.jpg": "/iei-web/static/media/event2.b10969c6.jpg",
+    "static/media/happy.gif": "/iei-web/static/media/happy.70f976fa.gif",
+    "static/media/iei_logo.png": "/iei-web/static/media/iei_logo.ce672444.png",
+    "static/media/join.gif": "/iei-web/static/media/join.e0ea88c5.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8409f512.js",
+    "static/js/2.92be2ad5.chunk.js",
+    "static/css/main.45b67897.chunk.css",
+    "static/js/main.6a0a323a.chunk.js"
+  ]
+}
