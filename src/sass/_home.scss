@@ -1,0 +1,104 @@
+
+@import "mixin";
+$main-height-phone:4.2rem;
+.happy{
+    position:absolute;
+    width:10%;
+    height:10%;
+     top:28rem;
+    &-1{
+        right:2%;
+    }
+    &-2{
+       left:2%;
+    }
+    @media screen and (max-width: 767.98px){
+        display:none;
+    }
+}
+
+.form{
+    background-color:rgba(0, 0, 0, 0.7);
+    width:100%;
+    position:fixed;
+    height:100%;
+    padding-top:calc(#{$main-height} - .5rem);
+    @media screen and (max-width: 767.98px){
+         padding-top:calc(#{$main-height-phone} - .5rem);
+        height:100%;
+        z-index:10000;
+    }
+    &-link{
+        width:70%;
+        position:fixed;
+        transform:translate(20%,30px);
+        height:90%;
+        @media screen and (max-width: 767.98px){
+            width:80%;
+            transform:translate(10%,50px);
+            height:90%;
+        }
+    }
+    &-close{
+        right: 4%;
+        top: $main-height;
+        width: 80px;
+        height: 80px;
+        border-radius:50%;
+        position: absolute;
+        background-color:transparent;
+        border:1px solid transparent;
+        &:active{
+            border:0px solid transparent !important;
+             background-color:transparent !important;
+             box-shadow:0px 0px 0px transparent !important;
+        }
+        @media screen and (max-width: 767.98px){
+            right: 3px;
+            top:10rem;
+            width: 55px;
+            height: 55px;
+            z-index:10000;
+        }
+        &:hover{
+            background-color:rgba(255,255,255,.7);
+            box-shadow:1px 1px 5px black;
+        }
+        &:hover > &-btn::before{
+            background-color:red;
+        }
+        &:hover > &-btn::after{
+            background-color:red;
+        }
+        &-btn {
+            &::before, &::after {
+                position: absolute;
+                right:35px;
+                top: 10px;
+                content: ' ';
+                height: 63px;
+                width: 10px;
+                background-color: white;
+                border-radius:10px;
+                cursor:pointer;
+                z-index:100000;
+                @media screen and (max-width: 767.98px){
+                    height: 37px;
+                    width: 7px;
+                    right:25px;
+                    top:calc(#{$main-height-phone} + #{1rem});
+                }
+            }
+            &::before {
+                transform: rotate(45deg);
+            }
+            &::after {
+                transform: rotate(-45deg);
+            }
+            
+        }
+
+    }
+   
+    
+}
